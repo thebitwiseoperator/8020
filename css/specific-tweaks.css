@@ -1,0 +1,763 @@
+a:active,
+a:focus,
+a:link,
+a:visited {
+    outline: none !important;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0px auto 0px auto;
+}
+
+@font-face {
+    font-family: 'LGSmart';
+    src: url(../fonts/LG/lg_smart_semibold-webfont.ttf) format('truetype'), url(../fonts/LG/lg_smart_semibold-webfont.eot), url(../fonts/LG/lg_smart_semibold-webfont-svg) format('svg'), url(../fonts/LG/lg_smart_semibold-webfont-woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LGSmart';
+    src: url(../fonts/LG/lg_smart_regular-webfont.ttf) format('truetype'), url(../fonts/LG/lg_smart_regular-webfont.eot), url(../fonts/LG/lg_smart_regular-webfont-svg) format('svg'), url(../fonts/LG/lg_smart_regular-webfont-woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LGSmart';
+    src: url(../fonts/LG/lg_smart_bold_italic-webfont.ttf) format('truetype'), url(../fonts/LG/lg_smart_bold_italic-webfont.eot), url(../fonts/LG/lg_smart_bold_italic-webfont-svg) format('svg'), url(../fonts/LG/lg_smart_bold_italic-webfont-woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LGSmart';
+    src: url(../fonts/LG/lg_smart_regular_italic-webfont.ttf) format('truetype'), url(../fonts/LG/lg_smart_regular_italic-webfont.eot), url(../fonts/LG/lg_smart_regular_italic-webfont-svg) format('svg'), url(../fonts/LG/lg_smart_regular_italic-webfont-woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LGSmart';
+    src: url(../fonts/LG/lg_smart_light-webfont.ttf) format('truetype'), url(../fonts/LG/lg_smart_light-webfont.eot), url(../fonts/LG/lg_smart_light-webfont-svg) format('svg'), url(../fonts/LG/lg_smart_light-webfont-woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar-brand {
+    background-image: url(../images/lg-logo.png);
+    width: 103px;
+    height: 52px;
+    display: block;
+    margin: 0px 0px 0px 32px;
+}
+
+.navbar {
+    margin: 0px auto 0px auto;
+}
+
+#navbar {
+    width: 960px;
+    height: 55px !important;
+    border: none;
+    margin-bottom: -20px;
+    background-color: black;
+}
+
+.videosub-bar {
+    display: none;
+}
+
+#quiz {
+    background-color: white;
+}
+
+div.answer-container {
+    width: 800px;
+    height: auto;
+    background-color: #cccccc;
+    font-size: 24px;
+    margin-left: 60px;
+    padding-top: 16px;
+}
+
+#quiz-question {
+    font-weight: 500;
+    font-family: 'LGSmart';
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 50px;
+    line-height: 1;
+}
+
+#quiz-counter {
+    color: black;
+    font-family: 'LGSmart';
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 50px 100px 0px 0px;
+}
+
+a.solve:link,
+a.solve:visited,
+a.solve:active {
+    background-color: #a50034 !important;
+    font-weight: 500;
+    color: white !important;
+    font-size: 24px !important;
+    padding: 12px 10px 8px;
+    width: 85px;
+    height: 50px;
+    font-family: 'LGSmart', sans-serif;
+    margin-left: 60px;
+}
+
+a.solve-grey:link,
+a.solve-grey:visited,
+a.solve-grey:active {
+    background-color: #969696 !important;
+}
+
+#incorrect-response,
+#correct-response {
+    margin-top: -334px;
+    width: 575px;
+    min-height: 180px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#incorrect-response-image,
+#correct-response-image {
+    background-image: url(../images/quiz-answer-incorrect.png);
+    width: 170px;
+    height: 207px;
+    padding: 0px;
+    margin: -19px 10px 0px -15px;
+    float: none;
+}
+
+#correct-response-image {
+    background-image: url(../images/quiz-answer-correct.png);
+}
+
+#incorrect-response p,
+#correct-response p {
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    width: auto
+}
+
+#incorrect-response p,
+#correct-response p {
+    color: black;
+    font-family: 'LGSmart', sans-serif;
+    font-size: 24px;
+    float: left;
+    padding: 20px 0px 0px 0px;
+    margin: -200px 0px 0px 184px;
+}
+
+.close-response {
+    height: 50px;
+    width: 100px;
+    background-color: #a50034;
+    color: white !important;
+    font-size: 24px !important;
+    padding: 12px 10px 8px;
+    font-family: 'LGSmart', sans-serif;
+    position: static;
+    float: right;
+}
+
+div.answer-container p {
+    margin-top: -7px;
+    font-family: 'LGSmart', sans-serif;
+    font-weight: 300;
+    color: black;
+    width: 750px;
+    margin-left: 35px;
+    line-height: 1.2;
+}
+
+#congrats {
+    background-color: white;
+}
+
+.congrats-text {
+    font-weight: normal;
+    color: black;
+    font-family: 'LGSmart', sans-serif;
+    font-size: 24px;
+}
+
+.congrats-headline {
+    margin-top: 100px;
+    font-weight: 600;
+    font-family: 'LGSmart', sans-serif;
+    color: #a50034;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.congrats-text,
+.congrats-headline {
+    margin-left: 32px;
+}
+
+#legal {
+    width: 960px;
+    height: 590px;
+    top: 0px;
+    left: -20px;
+}
+
+#legal-link {
+    color: black;
+    font-family: 'LGSmart', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.close-legal-button {
+    background-image: url(../images/legalCloseButton.png);
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 30;
+    display: block;
+    float: right;
+    margin: -24px -28px -30px 0px;
+}
+
+.legal-container {
+    width: 800px;
+    margin: 0px auto 0px auto;
+    border: 2px solid black;
+    padding: 10px;
+    position: relative;
+    top: 81px;
+    background-color: white;
+    z-index: 9999;
+}
+
+#page-wrapper {
+    overflow: hidden;
+    height: 590px;
+    width: 960px;
+}
+
+#vertical-divider {
+    height: 40px;
+    width: 2px;
+    background-color: grey;
+    float: right;
+    margin-top: 8px;
+    margin-left: 95px;
+    margin-right: 33px;
+}
+
+#product-logo {
+    background-image: url(../images/lg-product-logo.png);
+    width: 300px;
+    height: 35px;
+    margin-top: 12px;
+    float: right;
+}
+
+#settings-cog {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: dimgrey;
+    float: right;
+    margin-right: 15px;
+    margin-left: -20px;
+    margin-top: 15px;
+}
+
+#settings-cog:hover {
+    color: darkgrey;
+}
+
+#settings-box {
+    width: 154px;
+    height: 69px;
+    background-image: url(../images/settings-background.jpg);
+    background-repeat: repeat-x;
+    float: right;
+    margin-bottom: -100px;
+    top: 55px;
+    display: none;
+    position: relative;
+    z-index: 9999;
+}
+
+#settings-box .switch {
+    width: 106px;
+    height: 26px;
+    display: block;
+    cursor: pointer;
+    margin: 6px 0px 8px 26px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 14px;
+    font-family: LGSmart;
+}
+
+.music-on {
+    background-image: url(../images/music-on.jpg) !important;
+}
+
+.music-off {
+    background-image: url(../images/music-off.jpg) !important;
+}
+
+.voice-on {
+    background-image: url(../images/voice-on.jpg) !important;
+}
+
+.voice-off {
+    background-image: url(../images/voice-off.jpg) !important;
+}
+
+.video-background {
+    cursor: default;
+}
+
+#navigation-bar {
+    height: 34px;
+    width: 960px;
+    background-color: #a50034;
+    top: 55px;
+    z-index: 1;
+    display: none;
+    position: relative;
+}
+
+#landing-page-button {
+    background-image: url(../images/landing-page-button.png);
+    width: 203px;
+    top: 344px;
+    position: relative;
+    left: 710px;
+    height: 31px;
+}
+
+#landing-page-button:hover {
+    cursor: pointer;
+}
+
+#hamburger-stack {
+    background-image: url(../images/hamburger-stack.png);
+    height: 19px;
+    width: 25px;
+    position: relative;
+    left: 35px;
+    z-index: 1;
+    top: 60px;
+}
+
+#hamburger-stack:hover {
+    cursor: pointer;
+}
+
+#close-navigation-button {
+    background-image: url(../images/navigation-close-button-new.png);
+    width: 23px;
+    height: 22px;
+    border: none;
+    position: relative;
+    left: 35px;
+    display: none;
+}
+
+#features-button,
+#models-button,
+#quiz-button {
+    font-family: LGSmart;
+    font-size: 16px;
+    color: white;
+}
+
+#features-graphic {
+    background-image: url(../images/features-graphic-initial.png);
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#models-graphic {
+    background-image: url(../images/usps-initial.png);
+    width: 21px;
+    height: 14px;
+    top: 4px;
+    position: relative;
+    left: 8px;
+    margin-right: -10px;
+    float: left;
+}
+
+#quiz-graphic {
+    background-image: url(../images/quiz-graphic-initial.png);
+    width: 15px;
+    height: 17px;
+    top: 2px;
+    position: relative;
+    left: 7px;
+    margin-right: -10px;
+    float: left;
+}
+
+#quiz-button:hover > #quiz-graphic {
+    background-image: url(../images/quiz-graphic-over.png);
+}
+
+#features-button:hover > #features-graphic {
+    background-image: url(../images/features-graphic-over.png);
+}
+
+#models-button:hover > #models-graphic {
+    background-image: url(../images/usps-over.png);
+}
+
+#features-button,
+#models-button,
+#quiz-button {
+    border: none;
+    height: 34px;
+    float: right;
+    width: 108px;
+    background-color: #a50034;
+}
+
+#features-button:hover,
+#models-button:hover,
+#quiz-button:hover {
+    border: solid 1px white;
+    color: #6b6b6b;
+    background-color: #e6e6e6;
+}
+
+#features-container {
+    width: 160px;
+    position: relative;
+    top: 55px;
+    left: 636px;
+    background-color: #e7e7e7;
+    height: 281px;
+    z-index: 2;
+    padding-top: 10px;
+    display: none;
+}
+
+#models-container {
+    width: 160px;
+    position: relative;
+    top: 55px;
+    left: 744px;
+    background-color: #e7e7e7;
+    height: 281px;
+    z-index: 2;
+    display: none;
+    padding-top: 10px;
+}
+
+.features-cell {
+    height: 40px;
+    border: none;
+    padding-left: 15px;
+    width: 160px;
+    font-family: LGSmart;
+    font-size: 14px;
+    background-color: #e7e7e7;
+    text-align: left;
+    line-height: 1.1;
+    color: gray;
+}
+
+.features-cell:hover {
+    background-color: #A00534;
+    color: white;
+}
+
+.models-cell {
+    height: 40px;
+    border: none;
+    padding-left: 15px;
+    width: 160px;
+    font-family: LGSmart;
+    font-size: 16px;
+    background-color: #e7e7e7;
+    text-align: left;
+    line-height: 1.1;
+    color: gray;
+}
+
+.models-cell:hover {
+    background-color: #A00534;
+    color: white;
+}
+
+#landing {
+    background-image: url(../images/landing.jpg);
+}
+
+#right-arrow:hover,
+#left-arrow:hover {
+    cursor: pointer;
+}
+
+#left-arrow,
+#right-arrow {
+    background-image: url(../images/arrow-left-side.png);
+    height: 31px;
+    width: 18px;
+    border: none;
+    position: absolute;
+    top: 240px;
+}
+
+#right-arrow {
+    background-image: url(../images/arrow-right-side.png);
+    left: 939px;
+}
+
+.page-title {
+    font-size: 30px;
+    font-family: 'LGSmart';
+    color: rgb(163, 7, 54);
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    left: 45px;
+}
+
+.page-text {
+    font-size: 16px;
+    font-family: 'LGSmart';
+    color: rgb(107, 107, 107);
+    position: relative;
+}
+
+#hdmi-inputs {
+    background-image: url(../images/hdmi-inputs.jpg);
+}
+
+#hdmi-inputs-text {
+    width: 299px;
+    top: 40px;
+    left: 55px;
+}
+
+#embedded-battery {
+    background-image: url(../images/embedded-battery.jpg);
+}
+
+#embedded-battery-text {
+    width: 265px;
+    left: 55px;
+    top: 35px;
+    color: white;
+}
+
+#screen-share {
+    background-image: url(../images/screen-share.jpg);
+}
+
+#screen-share-text {
+    width: 280px;
+    top: 35px;
+    left: 55px;
+}
+
+#bluetooth-sound-out {
+    background-image: url(../images/bluetooth-sound-out.jpg);
+}
+
+#bluetooth-sound-out-text {
+    width: 387px;
+    top: 35px;
+    left: 55px;
+}
+
+#ultra-short-throw {
+    background-image: url(../images/ultra-short-throw.jpg);
+}
+
+#ultra-short-throw-text {
+    top: 35px;
+    left: 55px;
+    width: 287px;
+}
+
+#digital-tuner {
+    background-image: url(../images/digital-tv-tuner.jpg);
+}
+
+#digital-tuner-text {
+    top: 35px;
+    left: 55px;
+    width: 256px;
+}
+
+#smart-features {
+    background-image: url(../images/smart-features-with-magic-remote.jpg);
+}
+
+#smart-features-text {
+    left: 55px;
+    top: 35px;
+    width: 324px;
+}
+
+#hd-capability {
+    background-image: url(../images/hd-capability.jpg);
+}
+
+.hd-capability-text {
+    color: white !important;
+    width: 267px;
+    left: 55px;
+    top: 35px;
+}
+
+table {
+    border-color: white;
+    color: white;
+    font-family: LGSmart;
+    font-size: 16px;
+    position: relative;
+    top: 35px;
+    left: 55px;
+}
+
+td {
+    padding-left: 5px;
+}
+
+#display-size {
+    background-image: url(../images/display-size.jpg);
+}
+
+#display-size-text {
+    width: 195px;
+    left: 55px;
+    top: 35px;
+}
+
+#display-small-heading {
+    color: #a50034;
+    font-weight: bold;
+    font-size: 20px;
+    top: 35px;
+    left: 55px;
+}
+
+#models-text-row,
+#up-to-text-row {
+    width: 70px;
+    top: 35px;
+    left: 55px;
+}
+
+#up-to-text-row {
+    top: -162px;
+    left: 165px;
+}
+
+#PF1500 {
+    background-image: url(../images/PF1500.jpg);
+}
+
+#PF1000U {
+    background-image: url(../images/PF1000U.jpg);
+}
+
+#PW1500 {
+    background-image: url(../images/PW1500.jpg);
+}
+
+#PW1000 {
+    background-image: url(../images/PW1000.jpg);
+}
+
+#PH550 {
+    background-image: url(../images/PH550.jpg);
+}
+
+#PH450U {
+    background-image: url(../images/PH450U.jpg);
+}
+
+#PH150G {
+    background-image: url(../images/PH150G.jpg);
+}
+
+#PH450UG {
+    background-image: url(../images/PH450UG.jpg);
+}
+
+#PF1500-text,
+#PF1000U-text,
+#PW1500-text,
+#PW1000-text,
+#PH550-text,
+#PH450U-text,
+#PH150G-text,
+#PH450UG-text {
+    width: 451px;
+    top: 35px;
+    left: 55px;
+}
+
+#PF1000U-text,
+#PW1500-text,
+#PW1000-text,
+#PH550-text,
+#PH450U-text,
+#PH450UG-text {
+    margin-bottom: -15px;
+}
+
+#PW1000-text {
+    width: 400px;
+}
+
+#bullets {
+    position: absolute;
+    top: 475px;
+    left: 350px;
+    font-size: 21px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.bullet-grey {
+    color: grey;
+}
+
+.bullet-active {
+    color: #A00534;
+}
+
+#best-buy-text {
+    position: absolute;
+    left: 716px;
+    top: 90px;
+}
+
+audio {
+    display: none;
+}

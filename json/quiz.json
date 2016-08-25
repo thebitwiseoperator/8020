@@ -1,0 +1,101 @@
+{
+    "question": 
+    [
+        {   
+            "id":"0", 
+            "title":"What feature allows you to watch broadcast TV from your projector?", 
+            "correctResponse":"Wonderful! The Digital TV Tuner allows you to watch locally broadcast television from your projector. No extra hardware or wires needed!", 
+            "incorrectResponse":"Bummer! The Digital TV Tuner allows you to watch locally broadcast television from your projector. No extra hardware or wires needed!",
+            "correctAnswer":"2", 
+            "answers": 
+            [ 
+                {"0":"Smart Features With Magic Remote"}, 
+                {"1":"Ultra Short Throw"},
+                {"2":"Embedded Digital TV Tuner"}, 
+                {"3":"Screen Share"}
+            ]
+        },
+        {   
+            "id":"1", 
+            "title":"To utilize the Screen Share feature, what feature is needed on the source device?", 
+            "correctResponse":"You’ve got it! LG Minibeam Projectors support Screen Share via Miracast or WiDi!", 
+            "incorrectResponse":"Try again! LG Minibeam Projectors support Screen Share via Miracast or WiDi!",
+            "correctAnswer":"3", 
+            "answers": 
+            [ 
+                {"0":"Miracast compatibility"}, 
+                {"1":"<em>Bluetooth</em> compatibility"}, 
+                {"2":"WiDi compatibility"},
+                {"3":"Either A or C"}
+            ]
+        },
+        {   
+            "id":"2", 
+            "title":"True or False: Connecting a 2016 Minibeam Projector to a speaker or sound bar requires a wired hookup.", 
+            "correctResponse":"That’s right! As long as your speaker or sound bar supports a <em>Bluetooth</em> connection, LG Minibeam Projectors can connect wirelessly!", 
+            "incorrectResponse":"Oops! As long as your speaker or sound bar supports a <em>Bluetooth</em> connection, LG Minibeam Projectors can connect wirelessly!",
+            "correctAnswer":"1", 
+            "answers": 
+            [ 
+                {"0":"True"}, 
+                {"1":"False"}
+            ]
+        },
+        {   
+            "id":"3", 
+            "title":"Certain 2016 Minibeam Projectors containing an embedded battery grant how many hours of use without an external power source?", 
+            "correctResponse":"Nice! The embedded battery allows for 2.5 hours of use without an external power source!", 
+            "incorrectResponse":"Incorrect! The embedded battery allows for 2.5 hours of use without an external power source!",
+            "correctAnswer":"0", 
+            "answers": 
+            [ 
+                {"0":"Up to 2.5 hours"}, 
+                {"1":"Up to 1 hour"},
+                {"2":"Up to 3 hours"}, 
+                {"3":"Less than 1 hour"}
+            ]
+        },
+        {   
+            "id":"4", 
+            "title":"In general, what is the lamp life of LG’s Minibeam Projectors?", 
+            "correctResponse":"Bingo! With a lamp life of up to 30,000 hours, Minibeam Projectors retain brightness and image quality for a seriously long time before a replacement bulb is needed!", 
+            "incorrectResponse":"Not quite! With a lamp life of up to 30,000 hours, Minibeam Projectors retain brightness and image quality for a seriously long time before a replacement bulb is needed!",
+            "correctAnswer":"0", 
+            "answers": 
+            [ 
+                {"0":"Up to 30,000 hours"}, 
+                {"1":"Up to 10,000 hours"},
+                {"2":"Up to 25,000 hours"}, 
+                {"3":"Up to 5000 hours"}
+            ]
+        },
+        {   
+            "id":"5", 
+            "title":"The Ultra Short Throw feature conserves space by allowing you to project <br /> the full display size from how far away?", 
+            "correctResponse":"Excellent! The Ultra Short Throw feature allows you to view the full display size starting at just 15 inches away! ", 
+            "incorrectResponse":"Whoops! The Ultra Short Throw feature allows you to view the full display size starting at just 15 inches away!",
+            "correctAnswer":"3", 
+            "answers": 
+            [ 
+                {"0":"6 inches"}, 
+                {"1":"24 inches"}, 
+                {"2":"36 inches"},
+                {"3":"15 inches"}
+            ]
+        },
+        {   
+            "id":"6", 
+            "title":"Minibeam projectors compatible with Smart Features allow you to:", 
+            "correctResponse":"Correct! Smart Features allow you to enjoy wireless network capabilities, web browsing, and premium streaming apps right from your Minibeam Projector.", 
+            "incorrectResponse":"So close! Smart Features allow you to enjoy wireless network capabilities, web browsing, and premium streaming apps right from your Minibeam Projector.",
+            "correctAnswer":"3", 
+            "answers": 
+            [ 
+                {"0":"Utilize wireless network capabilities"}, 
+                {"1":"Browse the web"}, 
+                {"2":"Access premium streaming apps"},
+                {"3":"All of the above"}
+            ]
+        }
+    ]
+}

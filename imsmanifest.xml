@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="D321SCORM-MANIFEST" version="1.0"
+xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                            http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                            http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" >
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+<adlcp:location>imsmetadata.xml</adlcp:location>
+</metadata>
+<organizations default="TOC1">
+<organization identifier="TOC1">
+<title>IPS 4K Quantum Display</title>
+<item identifier="I_SCO0" identifierref="SCO0">
+<title>IPS 4K Quantum Display</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource identifier="SCO0" type="webcontent" adlcp:scormtype="sco" href="index.html">
+<file href="css/bootstrap.css" />
+<file href="css/site.css" />
+<file href="css/specific-tweaks.css" />
+<file href="css/videojs.css" />
+<file href="css/viewport-workaround.css" />
+<file href="fonts/glyphicons-halflings-regular.eot" />
+<file href="fonts/glyphicons-halflings-regular.svg" />
+<file href="fonts/glyphicons-halflings-regular.ttf" />
+<file href="fonts/glyphicons-halflings-regular.woff" />
+<file href="fonts/glyphicons-halflings-regular.woff2" />
+<file href="fonts/LG/lg_smart_bold-webfont.eot" />
+<file href="fonts/LG/lg_smart_bold-webfont.svg" />
+<file href="fonts/LG/lg_smart_bold-webfont.ttf" />
+<file href="fonts/LG/lg_smart_bold-webfont.woff" />
+<file href="fonts/LG/lg_smart_bold_italic-webfont.eot" />
+<file href="fonts/LG/lg_smart_bold_italic-webfont.svg" />
+<file href="fonts/LG/lg_smart_bold_italic-webfont.ttf" />
+<file href="fonts/LG/lg_smart_bold_italic-webfont.woff" />
+<file href="fonts/LG/lg_smart_light-webfont.eot" />
+<file href="fonts/LG/lg_smart_light-webfont.svg" />
+<file href="fonts/LG/lg_smart_light-webfont.ttf" />
+<file href="fonts/LG/lg_smart_light-webfont.woff" />
+<file href="fonts/LG/lg_smart_regular-webfont.eot" />
+<file href="fonts/LG/lg_smart_regular-webfont.svg" />
+<file href="fonts/LG/lg_smart_regular-webfont.ttf" />
+<file href="fonts/LG/lg_smart_regular-webfont.woff" />
+<file href="fonts/LG/lg_smart_regular_italic-webfont.eot" />
+<file href="fonts/LG/lg_smart_regular_italic-webfont.svg" />
+<file href="fonts/LG/lg_smart_regular_italic-webfont.ttf" />
+<file href="fonts/LG/lg_smart_regular_italic-webfont.woff" />
+<file href="fonts/LG/lg_smart_semibold-webfont.eot" />
+<file href="fonts/LG/lg_smart_semibold-webfont.svg" />
+<file href="fonts/LG/lg_smart_semibold-webfont.ttf" />
+<file href="fonts/LG/lg_smart_semibold-webfont.woff" />
+<file href="html/home-page.html" />
+<file href="html/legal.html" />
+<file href="html/quiz.html" />
+<file href="html/video.html" />
+<file href="images/audio-normal.png" />
+<file href="images/closed-captions_1.png" />
+<file href="images/closed-captions_2.png" />
+<file href="images/header-background.png" />
+<file href="images/legalCloseButton.png" />
+<file href="images/lg_logo.png" />
+<file href="images/section-menu-close.png" />
+<file href="images/section-menu-disabled.png" />
+<file href="images/section-menu-enabled.png" />
+<file href="images/start-screen.jpg" />
+<file href="imsmanifest.xml" />
+<file href="index.html" />
+<file href="js/bootstrap.js" />
+<file href="js/navigation.js" />
+<file href="js/popcorn-complete.js" />
+<file href="js/quiz.js" />
+<file href="js/scorm-functions.js" />
+<file href="js/SCORM_API_wrapper.js" />
+<file href="js/site.js" />
+<file href="js/video-control-old.js" />
+<file href="js/video.js" />
+<file href="js/videojs-cues.js" />
+<file href="js/videojs-ie8.min.js" />
+<file href="json/dictionary" />
+<file href="json/dictionary/text.json" />
+<file href="json/quiz-template.json" />
+<file href="json/quiz.json" />
+<file href="json/video/IPS_Technology.json" />
+<file href="json/video/video-two.json" />
+<file href="video/IPS_Tech-full2.txt" />
+<file href="video/IPS_Technology.mp4" />
+<file href="video/subtitles.vtt" />
+<file href="video/video-two.mp4" />
+<file href="video/video.mp4" />
+<dependency identifierref="ALLRESOURCES" />
+</resource>
+<resource identifier="ALLRESOURCES" type="webcontent" adlcp:scormtype="asset">
+</resource>
+</resources>
+</manifest>
