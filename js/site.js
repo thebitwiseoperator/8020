@@ -37,8 +37,8 @@ var GSIDefaults = {
     }
 };
 var GSIOptions = {
-    trainingName: "LG Minibeam Projects",
-    productName: "LG Minibeam Projects",
+    trainingName: "LG Minibeam Projectors",
+    productName: "LG Minibeam Projectors",
     fadeDuration: "fast",
     audioIsMuted: false,
     modelsIsOpen: false,
@@ -60,6 +60,7 @@ var GSIOptions = {
     },
     toggleMuteVoice: function () {
         $("#vocal-track").prop('muted', !$("#vocal-track").prop('muted'));
+        $("#video").prop('muted', !$("#video").prop('muted')); 
         $(".voice-on").toggleClass("voice-off");
         this.audioIsMuted = !this.audioIsMuted;
     },
@@ -86,6 +87,12 @@ var GSIOptions = {
         }
         $("#vocal-track")[0].play();
     },
+    videoSound: function () { 
+        if(this.audioIsMuted) { 
+            $("#video").prop('muted', true); 
+            $(".voice-on").addClass('voice-off'); 
+        }
+    }, 
     sanitizeNavigation: function () {
         if (this.modelsIsOpen) this.toggleModels();
         if (this.featuresIsOpen) this.toggleFeatures();

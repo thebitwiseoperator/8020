@@ -566,7 +566,7 @@ div.answer-container p {
 }
 
 #embedded-battery-text {
-    width: 265px;
+    width: 275px;
     left: 55px;
     top: 35px;
     color: white;
@@ -628,7 +628,7 @@ div.answer-container p {
 
 .hd-capability-text {
     color: white !important;
-    width: 267px;
+    width: 527px;
     left: 55px;
     top: 35px;
 }
