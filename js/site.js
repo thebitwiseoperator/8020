@@ -44,7 +44,7 @@ var GSIOptions = {
     modelsIsOpen: false,
     featuresIsOpen: false,
     resetTraining: function () {
-        GSI.switchPage('home-page');
+        GSI.switchPage('landing-page');
     },
     toggleSettings: function () {
         $("#settings-box").fadeToggle("fast");
@@ -96,6 +96,11 @@ var GSIOptions = {
     sanitizeNavigation: function () {
         if (this.modelsIsOpen) this.toggleModels();
         if (this.featuresIsOpen) this.toggleFeatures();
+    }, 
+    fadeQuizButton: function () { 
+        setTimeout(function() { 
+            $("#quiz-next-button").fadeIn("slow"); 
+        }, 3000); 
     }
 };
 /*This creates the GSI object and combines GSIDefaults and GSIOptions. It does not modify GSIDefaults.*/
